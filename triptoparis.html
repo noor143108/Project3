@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip to Paris</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<style>
+    .back{
+    margin-top: 100px;
+    margin-left: 670px;
+    }
+    .fas{
+        position: absolute;
+        left: 15%;
+        top:6%;
+    }
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    box-sizing: border-box;
+}
+.heading{
+    position: absolute;
+    top:6%;
+    right:18%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    background-color: white;
+}
+.frame{
+    width: 70%;
+    height: 60%;
+    border-radius: 3%;
+    box-shadow: 2px 2px 3px 2px gray;
+    position: absolute;
+    right: 16%;
+    top: 26%;
+    padding-top: 12%;
+    box-sizing: border-box;
+    text-align: center;
+    border:.5px solid rgb(245, 143, 143) ;
+}
+.ht{
+    color:rgb(245, 145, 145);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+}
+.lt{
+    color:rgb(245, 146, 146);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+}
+.ct{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 140%;
+}
+.hr{
+    margin-left: 20%;
+    color: black;
+    width: 5%;
+}
+.hr1{
+    margin-left: 20%;
+}
+.addbutton{
+    position: absolute;
+    bottom: 15%;
+    right: 18%;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .back{
+    margin-top: 100px;
+    margin-left: 670px;
+    }
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    box-sizing: border-box;
+    width: 40%;
+    height: 60%;
+}
+.heading{
+    position: absolute;
+    top: 6%;
+    right:10%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50%;
+    background-color: white;
+}
+.frame{
+    width: 70%;
+    height: 40%;
+    border-radius: 3%;
+    box-shadow: 2px 2px 3px 2px gray;
+    position: absolute;
+    right: 16%;
+    top: 26%;
+    padding-top: 8%;
+    box-sizing: border-box;
+    text-align: center;
+    border:.5px solid rgb(245, 143, 143) ;
+}
+.ht{
+    color:rgb(245, 145, 145);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50%;
+}
+.lt{
+    color:rgb(245, 146, 146);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50%;
+}
+.ct{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40%;
+}
+.hr{
+    margin-left: 20%;
+    color: black;
+    width: 5%;
+}
+.hr1{
+    margin-left: 20%;
+}
+.addbutton{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+}
+</style>
+</head>
+<body>
+    <div class="main">
+        <a href="./index.html"><i class="fas fa-arrow-circle-left"></i></a>
+        <h2><span class="heading">Trip To Paris</span></h2>
+        <span class="frame">
+
+        <span class="ht ht1"><strong>Trip to Paris</strong></span>
+        <hr class="hr1">
+        <br>
+        <span class="lt lt1"><del>Completed task</del></span>
+        <br>
+        <span class="ct ct1"><input type="checkbox" name="ct" id="ct" value="">Pending Task</span>
+        <a href="add.html"><div class="addbutton"><i class="fas fa-plus-circle"></i></div></a>
+</span>
+    </div>
+</body>
+</html>
